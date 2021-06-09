@@ -13,7 +13,7 @@ def FirstPlusLen(p_lista):
 
 def gtSecond(p_lista):
     v_result=[]
-    if len(p_lista)>3:
+    if len(p_lista)>1:
         for v_valor in p_lista:
             if(v_valor>p_lista[1]):
                 v_result.append(v_valor)
